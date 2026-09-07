@@ -1,0 +1,12 @@
+.mainHeader {
+  background-color: #0a1f44;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+}
+
+.mainHeaderTitle {
+  color: #ffffff;
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}

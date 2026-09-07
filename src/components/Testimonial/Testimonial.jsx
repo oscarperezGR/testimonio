@@ -3,8 +3,6 @@ import './Testimonial.css';
 function Testimonial({ name, country, role, company, quote, image }) {
   return (
     <section>
-      <h1>Testimonios</h1>
-      <h2>de personas como reales como tu.</h2>
       <article className="testimonialCard">
         <img className="testimonialPhoto" src={image} alt={`Foto de ${name}`} />
         <div className="testimonialContent">
