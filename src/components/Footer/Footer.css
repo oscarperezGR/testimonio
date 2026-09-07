@@ -1,0 +1,11 @@
+.mainFooter {
+  background-color: #0a1f44;
+  padding: 1rem;
+  text-align: center;
+}
+
+.mainFooterText {
+  color: #ffffff;
+  margin: 0;
+  font-size: 0.85rem;
+}
