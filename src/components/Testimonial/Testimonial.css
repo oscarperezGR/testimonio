@@ -1,3 +1,13 @@
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
 .testimonialCard {
   display: flex;
   align-items: flex-start;
@@ -30,4 +40,5 @@
 .testimonialQuote {
   margin: 0.3rem 0 0;
   font-style: italic;
+  font-size: 0.85rem;
 }
