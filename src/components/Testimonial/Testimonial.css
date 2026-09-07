@@ -1,0 +1,33 @@
+.testimonialCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.testimonialPhoto {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.testimonialContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.testimonialHeading {
+  margin: 0;
+}
+
+.testimonialCompany {
+  margin: 0;
+}
+
+.testimonialQuote {
+  margin: 0.3rem 0 0;
+  font-style: italic;
+}
