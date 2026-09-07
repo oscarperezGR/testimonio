@@ -4,7 +4,7 @@ import sarahChima from './assets/img/sarahChima.png';
 import emmaBostian from './assets/img/emmaBostian.png';
 import carlosMendoza from './assets/img/carlosMendoza.png';
 import luciaFernandez from './assets/img/luciaFernandez.png';
-
+import Header from './components/Header/Header';
 
 const testimonials = [
   {
@@ -56,11 +56,14 @@ const testimonials = [
 
 function App() {
   return (
+    <>
+    <Header />
     <main className="testimonialsList">
       {testimonials.map((testimonial) => (
         <Testimonial key={testimonial.id} {...testimonial} />
       ))}
     </main>
+    </>
   );
 }
 
