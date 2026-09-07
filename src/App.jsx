@@ -5,6 +5,7 @@ import emmaBostian from './assets/img/emmaBostian.png';
 import carlosMendoza from './assets/img/carlosMendoza.png';
 import luciaFernandez from './assets/img/luciaFernandez.png';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 const testimonials = [
   {
@@ -63,6 +64,7 @@ function App() {
         <Testimonial key={testimonial.id} {...testimonial} />
       ))}
     </main>
+    <Footer />
     </>
   );
 }
